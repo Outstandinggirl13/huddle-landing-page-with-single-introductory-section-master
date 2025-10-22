@@ -94,6 +94,7 @@ body {
     overflow-x: hidden;
     background-image: url(assets/images/bg-mobile.svg);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /* ===========================
@@ -119,7 +120,6 @@ body {
     font-size: 24px;
     line-height: 36px;
     font-family: var(--font-title);
-    /* letter-spacing: 0.03em; */
 }
 
 .main__description {
