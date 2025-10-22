@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Responsive Huddle Landing Page – Mobile & Desktop](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-mobile-and-desktop-9HtbCNj3Ij)
 - Live Site URL: [GitHub Pages](https://outstandinggirl13.github.io/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
