@@ -115,6 +115,10 @@ body {
     text-align: center;
 }
 
+.main__image {
+    width: clamp(18.6875rem, 9.6646rem + 38.4977vw, 44.3125rem);
+}
+
 .main__title {
     margin: 60px 0 13px;
     font-size: 24px;
@@ -145,16 +149,95 @@ body {
 }
 
 .footer__social-icon {
-    width: 35px;
-    height: 35px;
+    width: 2.1875rem;
+    width: clamp(2.1875rem, 1.8574rem + 1.4085vw, 3.125rem);
+    height: 2.1875rem;
+    height: clamp(2.1875rem, 1.8574rem + 1.4085vw, 3.125rem);
 }
 
 .footer__attribution { 
     font-size: 1rem;
+    padding: 1rem;
     text-align: center;
     color: white;
 }
 
 .footer__attribution-link { 
     color: black; 
+}
+
+@media (min-width: 900px) {
+    .footer__social {
+        margin-bottom: clamp(2.25rem, -35.8548rem + 67.7419vw, 7.5rem);
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-image: none;
+        background-image: url(assets/images/bg-desktop.svg);
+        background-position: top left;
+    }
+
+    .header {
+        padding: 57px 70px;
+    }
+
+    .header__logo {
+        max-width: 215px;
+    }
+
+    .main {
+        display: flex;
+        padding: 28px 81px 18px 72px;
+        gap: 54px;
+        align-items: center;
+    }
+
+    .main__content {
+        max-width: 524px;
+        text-align: start;
+    }
+
+    .main__title {
+        margin: 40px 0 17px;
+        font-size: 42px;
+        line-height: 63px;
+        font-family: var(--font-title);
+        letter-spacing: -0.03em;
+    }
+    
+    .main__description {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 17px 0 24px;
+        letter-spacing: -0.04em;
+    }
+
+    .main__button {
+        font-size: 18px;
+        padding: 14px 63px;
+    }
+    
+    .footer__social {
+        justify-content: flex-end;
+        margin: 0px 75px;
+        gap: 6px;
+        margin-bottom: 28px;
+    }
+
+    .footer__attribution { 
+        position: absolute;
+        bottom: 0px;
+        width: 100vw;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .main {
+        align-items: flex-start;
+    }
+
 }
