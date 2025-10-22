@@ -141,6 +141,13 @@ body {
     padding: 9px 74px;
 }
 
+.main__button:hover,
+.main__button:active    {
+    background-color: var(--magenta-400);
+    color: white;
+    cursor: pointer;
+}
+
 .footer__social {
     display: flex;
     justify-content: center;
@@ -183,6 +190,7 @@ body {
 }
 
 @media (min-width: 1024px) {
+
     body {
         background-image: none;
         background-image: url(assets/images/bg-desktop.svg);
@@ -227,13 +235,6 @@ body {
     .main__button {
         font-size: 18px;
         padding: 14px 63px;
-    }
-    
-    .main__button:hover,
-    .main__button:active    {
-        background-color: var(--magenta-400);
-        color: white;
-        cursor: pointer;
     }
 
     .footer__social {
